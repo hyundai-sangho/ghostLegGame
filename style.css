@@ -1,19 +1,36 @@
-* {
+/* * {
   margin: 0;
   padding: 0;
-}
+} */
 
 #container {
   display: inline-block;
-  max-width: 602px;
-  max-height: 402px;
+  width: 602px;
+  height: 402px;
   position: absolute;
   left: 30%;
   top: 30%;
 }
 
 #canvas {
-  max-width: 600px;
-  max-height: 400px;
   border: 1px solid gray;
+}
+
+#btn1,
+#btn2,
+#btn3,
+#btn4,
+#btn5 {
+  border-radius: 5px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  cursor: pointer;
+  margin: 10px;
+}
+
+#buttonsDiv {
+  margin: 0 auto;
+  width: 600px;
+  text-align: center;
 }
